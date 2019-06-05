@@ -1,0 +1,28 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "A Node/Express/Mongodb server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:prod": "NODE_ENV=production node server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "Node Server",
+    "Express Server"
+  ],
+  "author": "Arpit Yadav <arpit.absyadav@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.8"
+  },
+  "devDependencies": {
+    "documentation": "^9.1.1",
+    "jest": "^24.1.0"
+  }
+}

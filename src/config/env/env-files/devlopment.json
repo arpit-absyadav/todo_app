@@ -1,0 +1,11 @@
+{
+  "envName": "Developement",
+
+  "port": 3000,
+  "host": "http://localhost:3000",
+
+  "db_connectionString": {
+    "flex": "mongodb://localhost:27017/todo",
+    "other": ""
+  }
+}
